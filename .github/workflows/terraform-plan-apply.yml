@@ -51,7 +51,7 @@ jobs:
     needs: [terraform-plan]
 
     steps:
-    # Checkout the repository to the GitHub Actions
+    # Checkout the repository to the GitHub Actions runner
     - name: Checkout
       uses: actions/checkout@v3
 
